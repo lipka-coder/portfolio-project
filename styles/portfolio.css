@@ -15,6 +15,14 @@ body {
     font-family: var(--default-font-family);
 }
 
+h2 {
+    font-size: 64px;;
+}
+
+.bg-lipka {
+    background-color: var(--primary-color);
+}
+
 .hero {
     text-align: center;
     background: var(--secondary-color);
@@ -35,4 +43,31 @@ body {
 .hero h3 {
     font-size: 26px;
     padding-top: 20px;
+}
+
+.btn-branding-lipka {
+    color: white;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.featurette-divider {
+    margin: 4rem 0;
+    background: var(--secondary-color);
+}
+
+.divider-footer {
+    margin-bottom: 2rem;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.social-media-icons {
+    text-align: center;
 }
