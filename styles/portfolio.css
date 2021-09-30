@@ -71,3 +71,51 @@ footer p {
 .social-media-icons {
     text-align: center;
 }
+
+@media (min-width: 766px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    btn-branding-lipka {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 10px 15px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 574px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    .btn-branding-lipka {
+        font-size: 12px;
+        line-height: 27px;
+        padding: 8px 10px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+    }
+
+    .hero h3 {
+        font-size: 20px;
+    }
+    
+    .featurette-divider {
+        margin: 2rem 0;
+    }
+}
