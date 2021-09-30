@@ -88,7 +88,7 @@ footer p {
     }
 }
 
-@media (max-width: 574px) {
+@media (max-width: 765px) {
     h2 {
         font-size: 36px;
     }
