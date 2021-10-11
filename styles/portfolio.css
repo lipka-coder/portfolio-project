@@ -15,8 +15,16 @@ body {
     font-family: var(--default-font-family);
 }
 
+p {
+    font-size: 30px;
+}
+
+p, .about-description {
+    font-size: 17px;
+}
+
 h2 {
-    font-size: 64px;;
+    font-size: 60px;;
 }
 
 .bg-lipka {
@@ -64,15 +72,56 @@ h2 {
     margin-bottom: 2rem;
 }
 
-footer p {
+.footer p {
     font-size: 12px;
 }
 
-.social-media-icons {
-    text-align: center;
+.social-media-icons{
+    display: block;
+    justify-content: space-evenly;
 }
 
-@media (min-width: 766px) {
+.social-media-icons a{
+    color: var(--button-color);
+}
+
+.avatar {
+    display: flex;
+    margin-right: 20px;
+    float: left;
+}
+
+.img-fluid {
+    max-width: 85%;
+    height: auto;
+}
+
+.skillset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    text-align: center;  
+    margin: 0 auto;
+    display: block;  
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.certificate {
+    margin: 0 auto;
+}
+
+.skills-certificate {
+    display: flex;
+}
+
+
+@media (min-width: 765px) {
     
     btn-branding-lipka {
         font-size: 18px;
@@ -80,14 +129,23 @@ footer p {
         padding: 10px 15px;
     }
 
-    footer p {
-        font-size: 10px;
+    .footer p {
+        font-size: 14px;
     }
+   
 }
 
 @media (max-width: 765px) {
     h2 {
         font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p, .about-description {
+        font-size: 12px;
     }
 
     .btn-branding-lipka {
@@ -96,7 +154,7 @@ footer p {
         padding: 8px 10px;
     }
 
-    footer p {
+    .footer p {
         font-size: 10px;
     }
 
@@ -114,5 +172,18 @@ footer p {
     
     .featurette-divider {
         margin: 2rem 0;
+    }
+
+    .skills-certificate {
+        flex-direction: column;
+    }
+
+    .skills {
+        width:100%;
+    }
+
+    .certification {
+        width: 100%;
+        margin-top: 2rem;
     }
 }
