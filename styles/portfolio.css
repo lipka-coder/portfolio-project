@@ -34,22 +34,22 @@ h2 {
 .hero {
     text-align: center;
     background: var(--secondary-color);
-    padding: 110px 20px;
+    padding: 80px 20px;
 }
 
 .hero h1 {
     font-family: var(--heading-font-family);
-    font-size: 96px;
+    font-size: 76px;
     font-weight: bold;
 }
 
 .hero h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .hero h3 {
-    font-size: 26px;
+    font-size: 22px;
     padding-top: 20px;
 }
 
